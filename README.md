@@ -8,7 +8,7 @@ Basic HTML element
 6. A divider, denoted using the <div> tag
 7. A text span, denoted using the <span> tag
 8. Make some text bold, denoted using the <b> tag
-
+  
 Basic CSS styling
 
 1. Modifying padding and margins to indent content and enhance readability
