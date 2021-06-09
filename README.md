@@ -1,13 +1,13 @@
 Basic HTML element
 
-1. A text header, denoted using the <h1>, <h2>, <h3>, <h4>, <h5>, <h6> tags.
-2. A paragraph, denoted using the <p> tag.
-3. A link, denoted using the <a> (anchor) tag.
-4. A list, denoted using the <ul> (unordered list) and <li> (list element) tags.
-5. An image, denoted using the <img> tag
-6. A divider, denoted using the <div> tag
-7. A text span, denoted using the <span> tag
-8. Make some text bold, denoted using the <b> tag
+1. A text header, denoted using the h1, h2, h3, h4, h5, h6 tags.
+2. A paragraph, denoted using the p tag.
+3. A link, denoted using the a (anchor) tag.
+4. A list, denoted using the ul (unordered list) and li (list element) tags.
+5. An image, denoted using the img tag
+6. A divider, denoted using the div tag
+7. A text span, denoted using the span tag
+8. Make some text bold, denoted using the b tag
 
 Basic CSS styling
 
