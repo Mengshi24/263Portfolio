@@ -1,4 +1,4 @@
-Basic HTML element
+<b>Basic HTML element</b>
 
 1. A text header, denoted using the h1, h2, h3, h4, h5, h6 tags.
 2. A paragraph, denoted using the p tag.
@@ -9,17 +9,17 @@ Basic HTML element
 7. A text span, denoted using the span tag
 8. Make some text bold, denoted using the b tag
 
-Basic CSS styling
+<b>Basic CSS styling</b>
 
 1. Modifying padding and margins to indent content and enhance readability
 2. Modifying link, text color, or other colors to be visually appealing
 3. Adding custom font(s) from [Google fonts](https://fonts.google.com/) to add more personality (make sure to include appropriate fallbacks)
 
-Advanced feature
+<b>Advanced feature</b>
 
 1. Creating a table with multiple columns and rows which can be read via a screen reader
 
-Online resources we consulted
+<b>Online resources we consulted</b>
 
 1. https://www.w3schools.com/w3css/default.asp 
 2. https://fonts.google.com/specimen/Atma 
