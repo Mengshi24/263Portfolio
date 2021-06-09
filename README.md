@@ -13,7 +13,7 @@
 <b>Basic CSS styling</b>
 
 1. Modifying padding and margins to indent content and enhance readability
-2. Modifying link, text color, or other colors to be visually appealing
+2. Modifying link and text color to be visually appealing
 3. Adding custom font(s) from [Google fonts](https://fonts.google.com/) to add more personality (make sure to include appropriate fallbacks)
 
 <b>Advanced feature</b>
