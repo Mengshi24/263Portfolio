@@ -14,7 +14,13 @@
 
 1. Modifying padding and margins to indent content and enhance readability
 2. Modifying link and text color to be visually appealing
-3. Adding custom font(s) from [Google fonts](https://fonts.google.com/) to add more personality (make sure to include appropriate fallbacks)
+3. Modifying the width of the element to enhance readability
+4. Specifing the alignment of text in the element to enhance readability
+5. Specifing the display behavior (the type of rendering box) of an element.
+6. Attaching shadows to some elements to be visually appealing.
+7. Setting the background color for some elements to be visually appealing.
+8. Specifing on which sides of an element floating elements are not allowed to float to enhance readability
+9. Adding custom font(s) from [Google fonts](https://fonts.google.com/) to add more personality (make sure to include appropriate fallbacks)
 
 <b>Advanced feature</b>
 
