@@ -4,18 +4,52 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atma">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5 {font-family: "Roboto", sans-serif}
 </style>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 33%;
+}
+.mid {
+  width: 33%;
+}
+.right {
+  width: 34%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
 <body class="w3-light-grey">
 
 
 <div class="w3-content" style="max-width:1400px">
 
 <!-- Header -->
-<header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>Fitness Mobile Application</b></h1>
+<header class="w3-container w3-center w3-padding-32">
+  <h1 style="font-family:Atma;"><b>Fitness Community</b></h1>
   <p>Team Members: Yukan Zhang, Chenqing Ji, Mengshi Liang</p>
 </header>
 
@@ -31,7 +65,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
 
       <div class="w3-container">
-        <p>text here.</p>        
+        <p>text here.</p>
       </div>
     </div>
 <!-- END ENTRIES -->
@@ -46,7 +80,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
 
       <div class="w3-container">
-        <p>text here.</p>        
+        <p>text here.</p>
       </div>
     </div>
 <!-- END ENTRIES -->
@@ -57,26 +91,50 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <!-- Blog entry -->
     <div class="w3-card-4 w3-margin w3-white">
       <div class="w3-container">
-        <h3><b>The Results of Work</b></h3>
+        <h3><b>Our Works</b></h3>
       </div>
-      
+
       <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <span class="w3-large">Competitive analysis</span><br>
-        <span>text here.</span>
+      	<span class="w3-large">Competitive analysis</span><br>
+      	<div class="column left" style="background-color:gainsboro;">
+    		<h2 style="color:white;">Peloton</h2>
+   			<p>Peloton, an indoor and outdoor workout app, is best known for its sessions led by professional coaches, with various activities such as bicycle, treadmill, yoga, and HIIT etc. </p>
+            <p style="color:grey;"><a href="https://www.onepeloton.com/" target="_blank">goto Peloton</a></p>
+
+ 	 	</div>
+        <div class="column mid" style="background-color:silver;">
+    		<h2 style="color:white;">Mirror</h2>
+   			<p>Mirror is a Peloton parallel product. Like Peloton’s bike and treadmill system, an equipment is needed for its online programs. It has its own professional coaches and allows the users to simultaneously watch the instructor and check out their own reflection. The users could monitor their own forms through the Mirror system.
+</p>
+			<p style="color:grey;"><a href="https://www.mirror.co/" target="_blank">goto TheMirror</a></p>
+ 	 	</div>
+ 		<div class="column right" style="background-color:gainsboro;">
+    		<h2 style="color:white;">Instagram</h2>
+    		<p>Professional coaches and fitness enthusiasts host the live classes on Instagram, and the followers can learn and communicate with each other during the Live. </p>
+            <p style="color:grey;"><a href="https://www.instagram.com/explore/tags/fitness/?hl=en" target="_blank">goto TheMirror</a></p>
+  		</div>
+        <span>
+        <p>In order to meet the urgent needs of people who want to workout at home and encourage other people to exercise during the pandemic, various systems helping achieve this goal emerge and become popular. They try to meet the needs of people at different ages, with different incomes and preferences.</p>
+        <p>Both of the first two systems above need to purchase equipment and memberships. As to the low income people, such as students, it is not so friendly.
+        <p>Equipment is a big investment with high risk, even the monthly payment would be a considerable expense. Bikes and treadmills will occupy a lot of space, and the Mirror is fragile which needs extra care during both storage and movement. In addition, interactivity within these two systems are limited. Enough encouragement from interactivity will make the user keep on their workout, otherwise they can give up easily. </p>
+		<p>Another form of system which could help people workout at home but is cheap and more feasible is live workout instruction on Instagram.Ho
+</p>
+
+</span>
       </li>
       <li class="w3-padding-16">
         <span class="w3-large">Understanding of your users and your personas</span><br>
         <span>text here. <img src="run.png" alt="Running Woman" style="width:30%"></span>
-      </li> 
+      </li>
       <li class="w3-padding-16">
         <span class="w3-large">The final design</span><br>
         <span>text here. <a href="https://nba.hupu.com/" target="_blank">超链接</a></span>
-      </li>   
+      </li>
       <li class="w3-padding-16 w3-hide-medium w3-hide-small">
         <span class="w3-large">Evaluation results</span><br>
         <span>text here. </span>
-      </li>  
+      </li>
     </ul>
     </div>
 <!-- END ENTRIES -->
@@ -93,7 +151,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container">
         <p>During the project, most of the time, our process went well. We put the collaboration plan into practice. The competitive analysis provided us with an overview of different approaches to design a fitness application. What’s more, we did a good job in user interviews since given our different backgrounds, every team member can focus on interviewing people that they’re familiar with. And the user research inspired us about what features we should include or not. After establishing the system, the evaluations provided us with a way to review and improve our system that makes it much more user-friendly.</p>
         <p>Besides, there are also some challenges we faced that are listed as follows: 1. Since we cannot reach out to those fitness trainers, we can only choose to focus on the fitness enthusiasts. It would be better if we can also take the fitness trainers' opinion into account. 2. After setting up the user stories, as there are so many features, it’s not easy to integrate them into an application even after prioritization. 3. After the mockup was established, it’s kind of time-consuming to make some changes on the user flow as our app is pretty deep.
-</p>        
+</p>
       </div>
     </div>
 <!-- END ENTRIES -->
@@ -108,7 +166,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
 
       <div class="w3-container">
-        <p>Firstly, we would like to thank Professor Matt for all the help and advice with our project. We also appreciate all the support we received from Agnes and Dennis. Besides, we would like to thank all the interviewees during the process that allowed us to conduct the user research and the user evaluation. Without them, this project would have not been possible. Finally, we want to thank all the teammates’ joint efforts that make this project from scratch to a final prototype. It was really a fantastic experience! </p>        
+        <p>Firstly, we would like to thank Professor Matt for all the help and advice with our project. We also appreciate all the support we received from Agnes and Dennis. Besides, we would like to thank all the interviewees during the process that allowed us to conduct the user research and the user evaluation. Without them, this project would have not been possible. Finally, we want to thank all the teammates’ joint efforts that make this project from scratch to a final prototype. It was really a fantastic experience! </p>
       </div>
     </div>
 <!-- END ENTRIES -->
