@@ -13,33 +13,31 @@ body,h1,h2,h3,h4,h5 {font-family: "Roboto", sans-serif}
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-* {
-  box-sizing: border-box;
-}
+      * {
+        box-sizing: border-box;
+      }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  height: 400px; /* Should be removed. Only for demonstration */
-}
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33333333333%;
+        padding: 10px;
+        height: 450px; /* Should be removed. Only for demonstration */
+      }
 
-.left {
-  width: 33%;
-}
-.mid {
-  width: 33%;
-}
-.right {
-  width: 34%;
-}
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
 </style>
 </head>
 <body class="w3-light-grey">
@@ -129,7 +127,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Roboto", sans-serif}
 
 <!-- Entries -->
 <div class="w3-col l8 s12" style="width:100%">
-  <!-- Blog entry -->
+  <!-- entry -->
     <div class="w3-card-4 w3-margin w3-white">
       <div class="w3-container">
         <h3><b>Our Works</b></h3>
@@ -138,19 +136,19 @@ body,h1,h2,h3,h4,h5 {font-family: "Roboto", sans-serif}
       <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
       	<span class="w3-large">Competitive analysis</span><br>
-      	<div class="column left" style="background-color:gainsboro;">
+      	<div class="column" style="background-color:gainsboro;">
     		<h2 style="color:white;">Peloton</h2>
    			<p>Peloton, an indoor and outdoor workout app, is best known for its sessions led by professional coaches, with various activities such as bicycle, treadmill, yoga, and HIIT etc. </p>
             <p style="color:grey;"><a href="https://www.onepeloton.com/" target="_blank">goto Peloton</a></p>
 
  	 	</div>
-        <div class="column mid" style="background-color:silver;">
+        <div class="column" style="background-color:silver;">
     		<h2 style="color:white;">Mirror</h2>
    			<p>Mirror is a Peloton parallel product. Like Peloton’s bike and treadmill system, an equipment is needed for its online programs. It has its own professional coaches and allows the users to simultaneously watch the instructor and check out their own reflection. The users could monitor their own forms through the Mirror system.
 </p>
 			<p style="color:grey;"><a href="https://www.mirror.co/" target="_blank">goto TheMirror</a></p>
  	 	</div>
- 		<div class="column right" style="background-color:gainsboro;">
+ 		<div class="column" style="background-color:gainsboro;">
     		<h2 style="color:white;">Instagram</h2>
     		<p>Professional coaches and fitness enthusiasts host the live classes on Instagram, and the followers can learn and communicate with each other during the Live. </p>
             <p style="color:grey;"><a href="https://www.instagram.com/explore/tags/fitness/?hl=en" target="_blank">goto Instagram</a></p>
@@ -201,7 +199,7 @@ The existing systems for workout such as gym, professional training Apps, and in
       </li>
       <li class="w3-padding-16">
         <span class="w3-large">The final design</span><br>
-        <span><img src="final.gif" alt="finalDesign" style="width:10%"></span>
+        <span><img src="final.gif" alt="finalDesign" style="width:20%"></span>
         <p><span> <a href="https://www.figma.com/file/2gDeTXjAuMxQwPK7drz4uR/263Project?version-id=895209218&node-id=0%3A1
 " target="_blank">  goto Fitness Community</a></span></p>
       </li>
